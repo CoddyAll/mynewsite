@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	marging: 0;
+	box-sizing: border-box;
+
+}
+
+
+h1{
+	font-family: Comforter Brush;
+	width: 100%;
+	text-align: center;
+
+}
+div{
+	background-color: red;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #efefef;
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo{
+	width: calc(50% - 30px);
+	height: calc((35vw - 30px)/16*9);
+	margin: 10px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease ;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo:hover{
+	transform: scale(1.07) rotate(3deg);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+}
+.photo1{
+	background-image: url(../img/img1.jpg);
+}
+.photo2{
+	background-image: url(../img/img2.jpg);
+}
+.photo3{
+	background-image: url(../img/img3.jpg);
+}
+.photo4{
+	background-image: url(../img/img4.jpg);
+}
+.photo5{
+	background-image: url(../img/img5.jpg);
+}

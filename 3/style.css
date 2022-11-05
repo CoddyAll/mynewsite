@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background-color: #9734c7;
+	margin: auto;
+}
+div{
+	bac
+	width: 50%;
+	margin: auto;
+}
+img{
+	max-width: 500px;
+	height: auto;
+	display: block;
+}
